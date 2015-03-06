@@ -5,6 +5,7 @@ import backend.gameLogic.OfflineMode.Player;
 import gui.Window;
 
 import javax.swing.*;
+import java.awt.*;
 
 public class PlayerPanel extends JPanel{
     public static final int HORIZONTAL = 0;
@@ -23,7 +24,9 @@ public class PlayerPanel extends JPanel{
 
     JPanel moneyPanel = new JPanel();
         JLabel moneyLabel = new JLabel("null");
-    ImageIcon blankCard = new ImageIcon(Window.prop.getProperty("app.imageFolder") + "//blank_card.png");
+    ImageIcon blankCard = new ImageIcon(Window.prop.getProperty("app.imageFolder") + "//blank_card.jpg");
+
+
     public PlayerPanel(int layout, Player player){
         for(int x = 0; x < 2; x++){
             cardHolder[x] = new JPanel();
@@ -33,9 +36,12 @@ public class PlayerPanel extends JPanel{
         }
         cardPanel.setLayout(cardBox);
         lastMovePanel.add(lastLabel);
+        lastMovePanel.setBackground(Color.BLUE);
         namePanel.add(nameLabel);
+        namePanel.setBackground(Color.BLUE);
         moneyPanel.add(moneyLabel);
-
+        moneyPanel.setBackground(Color.BLUE);
+        setBackground(Color.BLUE);
         if(layout == HORIZONTAL){
             mainBox = new BoxLayout(this, BoxLayout.X_AXIS);
             setLayout(mainBox);
@@ -66,13 +72,14 @@ public class PlayerPanel extends JPanel{
     }
 
     public void updateLabels(Player player){
-       /*
-        if(player.getLastMove().toString() != null){
+        System.out.println(player.getLastMove() == null);
+        if(player.getLastMove() != null){
             lastLabel.setText(player.getLastMove().toString());
         }else{
             lastLabel.setText("none");
         }
-*/
         moneyLabel.setText("$" + Double.toString(player.getPot()));
+
+        nameLabel.setText(player.getName());
     }
 }
