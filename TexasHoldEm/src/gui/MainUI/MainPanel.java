@@ -56,5 +56,10 @@ public class MainPanel extends JPanel implements ActionListener {
         if(e.getSource() == singlePlayerButton){
             window.switchPanels(Panels.SinglePlayerOptions);
         }
+
+        if(e.getSource() == multiplayerButton){
+            window.switchPanels(Panels.Multiplayer);
+        }
     }
+
 }

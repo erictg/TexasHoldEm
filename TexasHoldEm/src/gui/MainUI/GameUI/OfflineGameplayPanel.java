@@ -22,6 +22,7 @@ public class OfflineGameplayPanel extends GameplayPanel {
 
     public void updatePanels(){
         for(int x = 0; x < players.length; x++){
+            System.out.println(playerPanels[x]);
             playerPanels[x].updateLabels(players[x]);
         }
     }
@@ -38,6 +39,11 @@ public class OfflineGameplayPanel extends GameplayPanel {
 
     @Override
     public void check() {
+
+    }
+
+    @Override
+    public void tick(){
 
     }
 }

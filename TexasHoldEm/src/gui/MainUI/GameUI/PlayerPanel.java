@@ -66,7 +66,13 @@ public class PlayerPanel extends JPanel{
     }
 
     public void updateLabels(Player player){
-        lastLabel.setText(player.getLastMove().toString());
+       /*
+        if(player.getLastMove().toString() != null){
+            lastLabel.setText(player.getLastMove().toString());
+        }else{
+            lastLabel.setText("none");
+        }
+*/
         moneyLabel.setText("$" + Double.toString(player.getPot()));
     }
 }

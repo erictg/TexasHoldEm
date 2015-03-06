@@ -11,7 +11,7 @@ import java.awt.event.ActionListener;
 
 public abstract class GameplayPanel extends JPanel implements ActionListener {
 
-    PlayerPanel[] playerPanels = new PlayerPanel[6];
+    PlayerPanel[] playerPanels = new PlayerPanel[7];
     Window window;
 
     //north
@@ -63,6 +63,7 @@ public abstract class GameplayPanel extends JPanel implements ActionListener {
     public GameplayPanel(Window window){
         super(new BorderLayout());
         this.window = window;
+        construct();
     }
 
     private void construct(){
@@ -162,6 +163,7 @@ public abstract class GameplayPanel extends JPanel implements ActionListener {
             check();
         }
 
+        tick();
     }
 
     public abstract void fold();
@@ -170,4 +172,5 @@ public abstract class GameplayPanel extends JPanel implements ActionListener {
 
     public abstract void check();
 
+    public abstract void tick();
 }

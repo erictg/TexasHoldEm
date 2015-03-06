@@ -5,8 +5,11 @@ import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.awt.geom.Arc2D;
 
 public class SinglePlayerOptions extends JPanel implements ActionListener {
+
+    Window window;
 
     JPanel mainNorthPanel = new JPanel();
         JPanel northLabelHolder = new JPanel();
@@ -32,6 +35,7 @@ public class SinglePlayerOptions extends JPanel implements ActionListener {
 
     public SinglePlayerOptions(Window window){
         super(new BorderLayout());
+        this.window = window;
         construct();
     }
 
@@ -75,6 +79,11 @@ public class SinglePlayerOptions extends JPanel implements ActionListener {
 
     @Override
     public void actionPerformed(ActionEvent e) {
-
+        if(e.getSource() == goButton){
+            double pot = Double.parseDouble(startingMoneyDropDown.getItemAt(startingMoneyDropDown.getSelectedIndex()));
+            int x = Integer.parseInt(aiCountDrop.getItemAt(aiCountDrop.getSelectedIndex()));
+            System.out.println(pot + ", " + x);
+            window.startOfflineGame(x, pot);
+        }
     }
 }

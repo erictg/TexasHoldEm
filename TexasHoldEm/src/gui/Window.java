@@ -3,6 +3,7 @@ package gui;
 import backend.User;
 import com.mongodb.*;
 import com.mongodb.client.MongoDatabase;
+import gui.MainUI.GameUI.OfflineGameplayPanel;
 import gui.MainUI.SinglePlayer.SinglePlayerOptions;
 import gui.login.LoginPanel;
 import gui.login.NewAccount;
@@ -48,6 +49,11 @@ public class Window extends JFrame{
         }
     }
 
+    public void startOfflineGame(int aiCount, double pot){
+        getContentPane().removeAll();
+        add(new OfflineGameplayPanel(this, aiCount, pot, user));
+        ((JPanel)getContentPane()).updateUI();
+    }
     public void switchPanels(Panels p){
        getContentPane().removeAll();
         switch(p){
