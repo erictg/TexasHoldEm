@@ -57,23 +57,23 @@ public abstract class GameplayPanel extends JPanel implements ActionListener {
                     JPanel timerLabelPanel = new JPanel();
                         JLabel timerLabel = new JLabel("TIMER");
 
-    ImageIcon blankCard = new ImageIcon(Window.prop.getProperty("app.imageFolder") + "//blank_card.png");
+    ImageIcon blankCard = new ImageIcon(Window.prop.getProperty("app.imageFolder") + "//table.jpg");
     ChatBox chatBox = new ChatBox();
 
-    public GameplayPanel(Window window){
+    public GameplayPanel(Window window, boolean online){
         super(new BorderLayout());
         this.window = window;
-        construct();
+        construct(online);
     }
 
-    private void construct(){
-        playerPanels[0] = new PlayerPanel(PlayerPanel.HORIZONTAL, null);
-        playerPanels[1] = new PlayerPanel(PlayerPanel.VERTICAL, null);
-        playerPanels[2] = new PlayerPanel(PlayerPanel.VERTICAL, null);
-        playerPanels[3] = new PlayerPanel(PlayerPanel.HORIZONTAL, null);
-        playerPanels[4] = new PlayerPanel(PlayerPanel.HORIZONTAL, null);
-        playerPanels[5] = new PlayerPanel(PlayerPanel.VERTICAL, null);
-        playerPanels[6] = new PlayerPanel(PlayerPanel.VERTICAL, null);
+    private void construct(boolean online){
+        playerPanels[0] = new PlayerPanel(PlayerPanel.HORIZONTAL, null, Color.CYAN);
+        playerPanels[1] = new PlayerPanel(PlayerPanel.VERTICAL, null, Color.GREEN);
+        playerPanels[2] = new PlayerPanel(PlayerPanel.VERTICAL, null, Color.CYAN);
+        playerPanels[3] = new PlayerPanel(PlayerPanel.HORIZONTAL, null, Color.CYAN);
+        playerPanels[4] = new PlayerPanel(PlayerPanel.HORIZONTAL, null, Color.GREEN);
+        playerPanels[5] = new PlayerPanel(PlayerPanel.VERTICAL, null, Color.CYAN);
+        playerPanels[6] = new PlayerPanel(PlayerPanel.VERTICAL, null, Color.GREEN);
 
         //north assembly
         mainNorthPanel.setLayout(northBox);
@@ -139,8 +139,13 @@ public abstract class GameplayPanel extends JPanel implements ActionListener {
         timerPanel.add(timerLabelPanel);
         dataPanel.add(timerPanel);
         centerHolder.add(dataPanel);
+        centerPanel.add(centerHolder);
         centerPanel.add(playerPanels[0]);
-        centerPanel.add(chatBox);
+       //if online include a chat box, if not then dont place it
+        if(online){
+            centerPanel.add(chatBox);
+        }
+
         add(BorderLayout.CENTER, centerPanel);
 
     }
@@ -172,5 +177,6 @@ public abstract class GameplayPanel extends JPanel implements ActionListener {
 
     public abstract void check();
 
+    //controls game rotation
     public abstract void tick();
 }

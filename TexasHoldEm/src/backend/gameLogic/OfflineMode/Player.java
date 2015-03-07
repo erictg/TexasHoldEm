@@ -85,6 +85,20 @@ public abstract class Player {
         this.round = round;
     }
 
+    public void addToPot(double d){
+        pot+=d;
+    }
+
+    public double subtractFromPot(double d){
+        pot -= d;
+        if(pot < 0){
+            double p = Math.abs(pot);
+            pot = 0;
+            return p;
+        }else{
+            return d;
+        }
+    }
     public abstract Move executeMove(double pot, int round);
 
     public abstract Move executeMove(Move move);

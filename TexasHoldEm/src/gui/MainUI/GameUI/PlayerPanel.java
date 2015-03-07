@@ -24,29 +24,31 @@ public class PlayerPanel extends JPanel{
 
     JPanel moneyPanel = new JPanel();
         JLabel moneyLabel = new JLabel("null");
-    ImageIcon blankCard = new ImageIcon(Window.prop.getProperty("app.imageFolder") + "//blank_card.jpg");
+    ImageIcon blankCard = new ImageIcon(Window.prop.getProperty("app.imageFolder") + "//blank.jpg");
 
 
-    public PlayerPanel(int layout, Player player){
+    public PlayerPanel(int layout, Player player, Color color){
         for(int x = 0; x < 2; x++){
             cardHolder[x] = new JPanel();
+            cardHolder[x].setBackground(color);
             cardLabel[x] = new JLabel(blankCard);
             cardHolder[x].add(cardLabel[x]);
             cardPanel.add(cardHolder[x]);
         }
+        cardPanel.setBackground(color);
         cardPanel.setLayout(cardBox);
         lastMovePanel.add(lastLabel);
-        lastMovePanel.setBackground(Color.BLUE);
+        lastMovePanel.setBackground(color);
         namePanel.add(nameLabel);
-        namePanel.setBackground(Color.BLUE);
+        namePanel.setBackground(color);
         moneyPanel.add(moneyLabel);
-        moneyPanel.setBackground(Color.BLUE);
-        setBackground(Color.BLUE);
+        moneyPanel.setBackground(color);
+        setBackground(color);
         if(layout == HORIZONTAL){
             mainBox = new BoxLayout(this, BoxLayout.X_AXIS);
             setLayout(mainBox);
-            JPanel right = new JPanel();    BoxLayout rightBox = new BoxLayout(right, BoxLayout.Y_AXIS);
-            JPanel left = new JPanel(); BoxLayout leftBox = new BoxLayout(left, BoxLayout.Y_AXIS);
+            JPanel right = new JPanel();    BoxLayout rightBox = new BoxLayout(right, BoxLayout.Y_AXIS);    right.setBackground(color);
+            JPanel left = new JPanel(); BoxLayout leftBox = new BoxLayout(left, BoxLayout.Y_AXIS);  left.setBackground(color);
             left.setLayout(leftBox);
             left.add(cardPanel);
             left.add(lastMovePanel);

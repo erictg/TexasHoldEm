@@ -60,6 +60,10 @@ public class MainPanel extends JPanel implements ActionListener {
         if(e.getSource() == multiplayerButton){
             window.switchPanels(Panels.Multiplayer);
         }
+
+        if(e.getSource() == optionsButton){
+            window.startOfflineGame(6, 700);
+        }
     }
 
 }
