@@ -10,7 +10,7 @@ public abstract class Player {
 
     protected String name;
     protected double pot;
-    protected ArrayList<Card> deck;
+    protected ArrayList<Card> hand;
     protected Move lastMove;
     protected int round;
     private boolean isMyTurn;
@@ -18,7 +18,7 @@ public abstract class Player {
 
     protected Player(double pot, String name){
         this.pot = pot;
-        deck = new ArrayList<Card>(2);
+        hand = new ArrayList<Card>(2);
         lastMove = null;
         round = 0;
         combinedDeck = new ArrayList<Card>();
@@ -42,15 +42,15 @@ public abstract class Player {
     }
 
     public void giveNewCards(Card c1, Card c2){
-        deck.clear();
-        deck.add(c1);
-        deck.add(c2);
+        hand.clear();
+        hand.add(c1);
+        hand.add(c2);
     }
 
     public void setCombinedDeck(ArrayList<Card> card){
         combinedDeck.clear();
         combinedDeck.addAll(card);
-        combinedDeck.addAll(deck);
+        combinedDeck.addAll(hand);
     }
 
     public double getPot() {
@@ -62,11 +62,11 @@ public abstract class Player {
     }
 
     public ArrayList<Card> getDeck() {
-        return deck;
+        return hand;
     }
 
     public void setDeck(ArrayList<Card> deck) {
-        this.deck = deck;
+        this.hand = deck;
     }
 
     public Move getLastMove() {
@@ -99,7 +99,7 @@ public abstract class Player {
             return d;
         }
     }
-    public abstract Move executeMove(double pot, int round);
+    public abstract Move executeMove(ArrayList<Card> table, double pot, int round);
 
     public abstract Move executeMove(Move move);
 }

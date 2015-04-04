@@ -11,6 +11,7 @@ import gui.MainUI.*;
 import javax.swing.*;
 import java.io.FileInputStream;
 import java.io.InputStream;
+import java.net.SocketException;
 import java.util.Properties;
 
 
@@ -22,7 +23,7 @@ public class Window extends JFrame{
     public static Properties prop;
     Panels currentPanel;
     public static MongoDatabase mongoDatabase;
-    public User user;
+    public User user = new User("Admin", "default");//default user is created incase of mongo error
     public boolean connected;
     public Window()throws Exception{
         super("Texas Hold Em'");
@@ -77,11 +78,12 @@ public class Window extends JFrame{
     public boolean establishMongoConnection() {
         try{
             MongoClient mongoClient = new MongoClient(new MongoClientURI("mongodb://erictg97:sabrefan69@ds041651.mongolab.com:41651/texas_hold_em"));
+
             mongoDatabase = mongoClient.getDatabase("texas_hold_em");
+            System.out.println("mongodb = " + mongoDatabase);
             return true;
-        }catch(MongoException e){
+        }catch(MongoException e) {
             return false;
         }
-
     }
 }

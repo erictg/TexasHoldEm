@@ -3,10 +3,12 @@ import java.awt.BorderLayout;
 import java.awt.Color;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.net.SocketException;
 import java.util.ArrayList;
 
 import backend.MongoControl;
 import backend.User;
+import com.mongodb.MongoSocketReadException;
 import gui.*;
 import javax.swing.*;
 
@@ -81,7 +83,9 @@ public class LoginPanel extends JPanel implements ActionListener{
     public void actionPerformed(ActionEvent e) {
         if(e.getSource() == enterButton){
             if(isFull()){
-                if(login()){
+                if(checkAdminLogin()){
+                    window.switchPanels(Panels.MainPanel);
+                }else if(login()){
                     window.switchPanels(Panels.MainPanel);
                 }else{
                     errorLabel.setText("username or password incorrect");
@@ -104,13 +108,20 @@ public class LoginPanel extends JPanel implements ActionListener{
     }
     @SuppressWarnings("deprecation")
     public boolean login(){
-        User user = MongoControl.login(userNameArea.getText(), passwordField.getText(), Window.mongoDatabase);
+
+        User user = null;
+        user = MongoControl.login(userNameArea.getText(), passwordField.getText(), Window.mongoDatabase);
+
 
         if(user != null){
             window.user = user;
             return true;
         }
         return false;
+    }
+
+    public boolean checkAdminLogin(){
+        return (userNameArea.getText().equals("admin") && passwordField.getText().equals("admin"));
     }
 
 }

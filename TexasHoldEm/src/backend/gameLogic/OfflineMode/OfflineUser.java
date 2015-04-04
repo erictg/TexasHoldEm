@@ -2,6 +2,9 @@ package backend.gameLogic.OfflineMode;
 
 import backend.User;
 import backend.gameLogic.PlayerStuff.Move;
+import backend.gameStuff.Card;
+
+import java.util.ArrayList;
 
 public class OfflineUser extends Player {
 
@@ -22,7 +25,7 @@ public class OfflineUser extends Player {
     }
 
     @Override
-    public Move executeMove(double pot, int round) {
+    public Move executeMove(ArrayList<Card> table, double pot, int round) {
         return null;
     }
 

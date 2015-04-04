@@ -74,7 +74,6 @@ public class PlayerPanel extends JPanel{
     }
 
     public void updateLabels(Player player){
-        System.out.println(player.getLastMove() == null);
         if(player.getLastMove() != null){
             lastLabel.setText(player.getLastMove().toString());
         }else{

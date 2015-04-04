@@ -22,7 +22,7 @@ public abstract class GameplayPanel extends JPanel implements ActionListener {
 
     //west
     JPanel mainWestPanel = new JPanel();    BoxLayout westBox = new BoxLayout(mainWestPanel, BoxLayout.Y_AXIS);
-
+    //this also has built
     //east
     JPanel mainEastPanel = new JPanel();    BoxLayout eastBox = new BoxLayout(mainEastPanel, BoxLayout.Y_AXIS);
 

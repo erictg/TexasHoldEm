@@ -2,87 +2,31 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bbe19929-6868-4f9d-94ee-d156052d7393" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/backend/gameLogic/OfflineMode/OfflineController.java" />
-      <change type="DELETED" beforePath="C:\Users\Gretchen\Documents\GitHub\TexasHoldEm\TexasHoldEm\cards\10_of_clubs (145x210).jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Gretchen\Documents\GitHub\TexasHoldEm\TexasHoldEm\cards\10_of_diamonds (145x210).jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Gretchen\Documents\GitHub\TexasHoldEm\TexasHoldEm\cards\10_of_hearts (145x210).jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Gretchen\Documents\GitHub\TexasHoldEm\TexasHoldEm\cards\10_of_spades (145x210).jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Gretchen\Documents\GitHub\TexasHoldEm\TexasHoldEm\cards\2_of_clubs (145x210).jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Gretchen\Documents\GitHub\TexasHoldEm\TexasHoldEm\cards\2_of_diamonds (145x210).jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Gretchen\Documents\GitHub\TexasHoldEm\TexasHoldEm\cards\2_of_hearts (145x210).jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Gretchen\Documents\GitHub\TexasHoldEm\TexasHoldEm\cards\2_of_spades (145x210).jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Gretchen\Documents\GitHub\TexasHoldEm\TexasHoldEm\cards\3_of_clubs (145x210).jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Gretchen\Documents\GitHub\TexasHoldEm\TexasHoldEm\cards\3_of_diamonds (145x210).jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Gretchen\Documents\GitHub\TexasHoldEm\TexasHoldEm\cards\3_of_hearts (145x210).jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Gretchen\Documents\GitHub\TexasHoldEm\TexasHoldEm\cards\3_of_spades (145x210).jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Gretchen\Documents\GitHub\TexasHoldEm\TexasHoldEm\cards\4_of_clubs (145x210).jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Gretchen\Documents\GitHub\TexasHoldEm\TexasHoldEm\cards\4_of_diamonds (145x210).jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Gretchen\Documents\GitHub\TexasHoldEm\TexasHoldEm\cards\4_of_hearts (145x210).jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Gretchen\Documents\GitHub\TexasHoldEm\TexasHoldEm\cards\4_of_spades (145x210).jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Gretchen\Documents\GitHub\TexasHoldEm\TexasHoldEm\cards\5_of_clubs (145x210).jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Gretchen\Documents\GitHub\TexasHoldEm\TexasHoldEm\cards\5_of_diamonds (145x210).jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Gretchen\Documents\GitHub\TexasHoldEm\TexasHoldEm\cards\5_of_hearts (145x210).jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Gretchen\Documents\GitHub\TexasHoldEm\TexasHoldEm\cards\5_of_spades (145x210).jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Gretchen\Documents\GitHub\TexasHoldEm\TexasHoldEm\cards\6_of_clubs (145x210).jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Gretchen\Documents\GitHub\TexasHoldEm\TexasHoldEm\cards\6_of_diamonds (145x210).jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Gretchen\Documents\GitHub\TexasHoldEm\TexasHoldEm\cards\6_of_hearts (145x210).jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Gretchen\Documents\GitHub\TexasHoldEm\TexasHoldEm\cards\6_of_spades (145x210).jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Gretchen\Documents\GitHub\TexasHoldEm\TexasHoldEm\cards\7_of_clubs (145x210).jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Gretchen\Documents\GitHub\TexasHoldEm\TexasHoldEm\cards\7_of_diamonds (145x210).jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Gretchen\Documents\GitHub\TexasHoldEm\TexasHoldEm\cards\7_of_hearts (145x210).jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Gretchen\Documents\GitHub\TexasHoldEm\TexasHoldEm\cards\7_of_spades (145x210).jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Gretchen\Documents\GitHub\TexasHoldEm\TexasHoldEm\cards\8_of_clubs (145x210).jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Gretchen\Documents\GitHub\TexasHoldEm\TexasHoldEm\cards\8_of_diamonds (145x210).jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Gretchen\Documents\GitHub\TexasHoldEm\TexasHoldEm\cards\8_of_hearts (145x210).jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Gretchen\Documents\GitHub\TexasHoldEm\TexasHoldEm\cards\8_of_spades (145x210).jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Gretchen\Documents\GitHub\TexasHoldEm\TexasHoldEm\cards\9_of_clubs (145x210).jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Gretchen\Documents\GitHub\TexasHoldEm\TexasHoldEm\cards\9_of_diamonds (145x210).jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Gretchen\Documents\GitHub\TexasHoldEm\TexasHoldEm\cards\9_of_hearts (145x210).jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Gretchen\Documents\GitHub\TexasHoldEm\TexasHoldEm\cards\9_of_spades (145x210).jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Gretchen\Documents\GitHub\TexasHoldEm\TexasHoldEm\cards\ace_of_clubs (145x210).jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Gretchen\Documents\GitHub\TexasHoldEm\TexasHoldEm\cards\ace_of_diamonds (145x210).jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Gretchen\Documents\GitHub\TexasHoldEm\TexasHoldEm\cards\ace_of_hearts (145x210).jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Gretchen\Documents\GitHub\TexasHoldEm\TexasHoldEm\cards\ace_of_spades (145x210).jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Gretchen\Documents\GitHub\TexasHoldEm\TexasHoldEm\cards\ace_of_spades2 (145x210).jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Gretchen\Documents\GitHub\TexasHoldEm\TexasHoldEm\cards\black_joker (145x210).jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Gretchen\Documents\GitHub\TexasHoldEm\TexasHoldEm\cards\blank_card.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Gretchen\Documents\GitHub\TexasHoldEm\TexasHoldEm\cards\jack_of_clubs (145x210).jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Gretchen\Documents\GitHub\TexasHoldEm\TexasHoldEm\cards\jack_of_clubs2 (145x210).jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Gretchen\Documents\GitHub\TexasHoldEm\TexasHoldEm\cards\jack_of_diamonds (145x210).jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Gretchen\Documents\GitHub\TexasHoldEm\TexasHoldEm\cards\jack_of_diamonds2 (145x210).jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Gretchen\Documents\GitHub\TexasHoldEm\TexasHoldEm\cards\jack_of_hearts (145x210).jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Gretchen\Documents\GitHub\TexasHoldEm\TexasHoldEm\cards\jack_of_hearts2 (145x210).jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Gretchen\Documents\GitHub\TexasHoldEm\TexasHoldEm\cards\jack_of_spades (145x210).jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Gretchen\Documents\GitHub\TexasHoldEm\TexasHoldEm\cards\jack_of_spades2 (145x210).jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Gretchen\Documents\GitHub\TexasHoldEm\TexasHoldEm\cards\king_of_clubs (145x210).jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Gretchen\Documents\GitHub\TexasHoldEm\TexasHoldEm\cards\king_of_clubs2 (145x210).jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Gretchen\Documents\GitHub\TexasHoldEm\TexasHoldEm\cards\king_of_diamonds (145x210).jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Gretchen\Documents\GitHub\TexasHoldEm\TexasHoldEm\cards\king_of_diamonds2 (145x210).jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Gretchen\Documents\GitHub\TexasHoldEm\TexasHoldEm\cards\king_of_hearts (145x210).jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Gretchen\Documents\GitHub\TexasHoldEm\TexasHoldEm\cards\king_of_hearts2 (145x210).jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Gretchen\Documents\GitHub\TexasHoldEm\TexasHoldEm\cards\king_of_spades (145x210).jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Gretchen\Documents\GitHub\TexasHoldEm\TexasHoldEm\cards\king_of_spades2 (145x210).jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Gretchen\Documents\GitHub\TexasHoldEm\TexasHoldEm\cards\queen_of_clubs (145x210).jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Gretchen\Documents\GitHub\TexasHoldEm\TexasHoldEm\cards\queen_of_clubs2 (145x210).jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Gretchen\Documents\GitHub\TexasHoldEm\TexasHoldEm\cards\queen_of_diamonds (145x210).jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Gretchen\Documents\GitHub\TexasHoldEm\TexasHoldEm\cards\queen_of_diamonds2 (145x210).jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Gretchen\Documents\GitHub\TexasHoldEm\TexasHoldEm\cards\queen_of_hearts (145x210).jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Gretchen\Documents\GitHub\TexasHoldEm\TexasHoldEm\cards\queen_of_hearts2 (145x210).jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Gretchen\Documents\GitHub\TexasHoldEm\TexasHoldEm\cards\queen_of_spades (145x210).jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Gretchen\Documents\GitHub\TexasHoldEm\TexasHoldEm\cards\queen_of_spades2 (145x210).jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Gretchen\Documents\GitHub\TexasHoldEm\TexasHoldEm\cards\red_joker (145x210).jpg" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/TexasHoldEm/backend/gameLogic/AI/AILogic.class" afterPath="$PROJECT_DIR$/out/production/TexasHoldEm/backend/gameLogic/AI/AILogic.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/TexasHoldEm/backend/gameLogic/OfflineMode/AIUser.class" afterPath="$PROJECT_DIR$/out/production/TexasHoldEm/backend/gameLogic/OfflineMode/AIUser.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/TexasHoldEm/gui/MainUI/GameUI/GameplayPanel.class" afterPath="$PROJECT_DIR$/out/production/TexasHoldEm/gui/MainUI/GameUI/GameplayPanel.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/TexasHoldEm/gui/MainUI/MainPanel.class" afterPath="$PROJECT_DIR$/out/production/TexasHoldEm/gui/MainUI/MainPanel.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/TexasHoldEm/gui/MainUI/GameUI/PlayerPanel.class" afterPath="$PROJECT_DIR$/out/production/TexasHoldEm/gui/MainUI/GameUI/PlayerPanel.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/TexasHoldEm/gui/main.class" afterPath="$PROJECT_DIR$/out/production/TexasHoldEm/gui/main.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/TexasHoldEm/gui/login/LoginPanel.class" afterPath="$PROJECT_DIR$/out/production/TexasHoldEm/gui/login/LoginPanel.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/TexasHoldEm/gui/MainUI/GameUI/OfflineGameplayPanel.class" afterPath="$PROJECT_DIR$/out/production/TexasHoldEm/gui/MainUI/GameUI/OfflineGameplayPanel.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/TexasHoldEm/backend/gameLogic/OfflineMode/OfflineUser.class" afterPath="$PROJECT_DIR$/out/production/TexasHoldEm/backend/gameLogic/OfflineMode/OfflineUser.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/TexasHoldEm/backend/gameLogic/OfflineMode/Player.class" afterPath="$PROJECT_DIR$/out/production/TexasHoldEm/backend/gameLogic/OfflineMode/Player.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/TexasHoldEm/gui/Window$1.class" afterPath="$PROJECT_DIR$/out/production/TexasHoldEm/gui/Window$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/TexasHoldEm/gui/Window.class" afterPath="$PROJECT_DIR$/out/production/TexasHoldEm/gui/Window.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/backend/gameLogic/AI/AILogic.java" afterPath="$PROJECT_DIR$/src/backend/gameLogic/AI/AILogic.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/backend/gameLogic/OfflineMode/AIUser.java" afterPath="$PROJECT_DIR$/src/backend/gameLogic/OfflineMode/AIUser.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/gui/MainUI/GameUI/GameplayPanel.java" afterPath="$PROJECT_DIR$/src/gui/MainUI/GameUI/GameplayPanel.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/gui/MainUI/MainPanel.java" afterPath="$PROJECT_DIR$/src/gui/MainUI/MainPanel.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/gui/login/LoginPanel.java" afterPath="$PROJECT_DIR$/src/gui/login/LoginPanel.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/backend/gameLogic/OfflineMode/OfflineController.java" afterPath="$PROJECT_DIR$/src/backend/gameLogic/OfflineMode/OfflineController.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/gui/MainUI/GameUI/OfflineGameplayPanel.java" afterPath="$PROJECT_DIR$/src/gui/MainUI/GameUI/OfflineGameplayPanel.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/backend/gameLogic/OfflineMode/OfflineUser.java" afterPath="$PROJECT_DIR$/src/backend/gameLogic/OfflineMode/OfflineUser.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/backend/gameLogic/OfflineMode/Player.java" afterPath="$PROJECT_DIR$/src/backend/gameLogic/OfflineMode/Player.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/gui/MainUI/GameUI/PlayerPanel.java" afterPath="$PROJECT_DIR$/src/gui/MainUI/GameUI/PlayerPanel.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cards/Thumbs.db" afterPath="$PROJECT_DIR$/cards/Thumbs.db" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app.config" afterPath="$PROJECT_DIR$/app.config" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/gui/main.java" afterPath="$PROJECT_DIR$/src/gui/main.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TexasHoldEm.iml" afterPath="$PROJECT_DIR$/TexasHoldEm.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/gui/Window.java" afterPath="$PROJECT_DIR$/src/gui/Window.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="TexasHoldEm.iws" />
@@ -108,86 +52,16 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="PlayerPanel.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/gui/MainUI/GameUI/PlayerPanel.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="103" max-vertical-offset="1513">
-              <caret line="36" column="9" selection-start-line="36" selection-start-column="9" selection-end-line="36" selection-end-column="9" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="OfflineGameplayPanel.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="OfflineGameplayPanel.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/gui/MainUI/GameUI/OfflineGameplayPanel.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.45890412" vertical-offset="20" max-vertical-offset="1054">
-              <caret line="13" column="29" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="549" max-vertical-offset="1853">
+              <caret line="80" column="27" selection-start-line="80" selection-start-column="27" selection-end-line="80" selection-end-column="27" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="method#fold#0;class#OfflineGameplayPanel#0" expanded="false" />
+                <element signature="method#bet#0;class#OfflineGameplayPanel#0" expanded="false" />
+                <element signature="method#check#0;class#OfflineGameplayPanel#0" expanded="false" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="OfflineController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/backend/gameLogic/OfflineMode/OfflineController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="408">
-              <caret line="14" column="11" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="11" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Player.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/backend/gameLogic/OfflineMode/Player.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="731" max-vertical-offset="1326">
-              <caret line="98" column="21" selection-start-line="98" selection-start-column="21" selection-end-line="98" selection-end-column="21" />
-              <folding>
-                <element signature="e#720#721#0" expanded="true" />
-                <element signature="e#747#748#0" expanded="true" />
-                <element signature="method#giveNewCards#0;class#Player#0" expanded="false" />
-                <element signature="method#setCombinedDeck#0;class#Player#0" expanded="false" />
-                <element signature="e#1778#1779#0" expanded="true" />
-                <element signature="e#1800#1801#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ChatBox.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/gui/MainUI/GameUI/ChatBox.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="459">
-              <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="OfflineUser.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/backend/gameLogic/OfflineMode/OfflineUser.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="106" max-vertical-offset="544">
-              <caret line="25" column="20" selection-start-line="25" selection-start-column="20" selection-end-line="25" selection-end-column="20" />
-              <folding>
-                <element signature="e#480#481#0" expanded="true" />
-                <element signature="e#507#508#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Suite.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/backend/gameStuff/Suite.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="289">
-              <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -195,8 +69,57 @@
       <file leaf-file-name="GameplayPanel.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/gui/MainUI/GameUI/GameplayPanel.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="7" max-vertical-offset="3077">
-              <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="357" max-vertical-offset="3077">
+              <caret line="170" column="0" selection-start-line="170" selection-start-column="0" selection-end-line="170" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="OfflineController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/backend/gameLogic/OfflineMode/OfflineController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="1806" max-vertical-offset="2669">
+              <caret line="141" column="17" selection-start-line="141" selection-start-column="17" selection-end-line="141" selection-end-column="17" />
+              <folding>
+                <element signature="method#initializeEssentials#0;class#OfflineController#0" expanded="false" />
+                <element signature="e#4658#4659#0" expanded="true" />
+                <element signature="e#4741#4742#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="OfflineUser.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/backend/gameLogic/OfflineMode/OfflineUser.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="112" max-vertical-offset="544">
+              <caret line="32" column="28" selection-start-line="32" selection-start-column="28" selection-end-line="32" selection-end-column="28" />
+              <folding>
+                <element signature="e#646#647#0" expanded="true" />
+                <element signature="e#673#674#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AIUser.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/backend/gameLogic/OfflineMode/AIUser.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="254" max-vertical-offset="969">
+              <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Window.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/gui/Window.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="357" max-vertical-offset="1411">
+              <caret line="86" column="9" selection-start-line="86" selection-start-column="9" selection-end-line="86" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -206,16 +129,39 @@
         <entry file="file://$PROJECT_DIR$/app.config">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="153">
-              <caret line="3" column="15" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="15" />
+              <caret line="3" column="20" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="table.jpg" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cards/table.jpg">
-          <provider selected="true" editor-type-id="images">
-            <state />
+      <file leaf-file-name="Panels.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/gui/Panels.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="272">
+              <caret line="8" column="82" selection-start-line="8" selection-start-column="82" selection-end-line="8" selection-end-column="82" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/gui/main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="544">
+              <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MainPanel.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/gui/MainUI/MainPanel.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.3112128" vertical-offset="51" max-vertical-offset="1173">
+              <caret line="17" column="45" selection-start-line="17" selection-start-column="45" selection-end-line="17" selection-end-column="45" />
+              <folding />
+            </state>
           </provider>
         </entry>
       </file>
@@ -227,46 +173,12 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/backend/XMLcontroll.java" />
-        <option value="$PROJECT_DIR$/src/sqlNotes.txt" />
-        <option value="$PROJECT_DIR$/src/backend/SQLquery.java" />
-        <option value="$PROJECT_DIR$/sqlNotes.txt" />
-        <option value="$PROJECT_DIR$/src/backend/gameStuff/FaceValue.java" />
-        <option value="$PROJECT_DIR$/src/backend/SqlControl.java" />
-        <option value="$PROJECT_DIR$/src/backend/gameStuff/Card.java" />
-        <option value="$PROJECT_DIR$/src/backend/gameStuff/Suite.java" />
-        <option value="$PROJECT_DIR$/src/backend/gameLogic/FoundHand.java" />
-        <option value="$PROJECT_DIR$/src/backend/gameStuff/CardType.java" />
-        <option value="$PROJECT_DIR$/src/backend/gameStuff/Deck.java" />
-        <option value="$PROJECT_DIR$/src/gui/MainUI/Multiplayer/MainMultiplayerPanel.java" />
-        <option value="$PROJECT_DIR$/src/backend/User.java" />
-        <option value="$PROJECT_DIR$/src/backend/gameLogic/AILogic.java" />
-        <option value="$PROJECT_DIR$/src/backend/gameLogic/Moves.java" />
-        <option value="$PROJECT_DIR$/src/backend/gameLogic/Move.java" />
-        <option value="$PROJECT_DIR$/src/backend/gameLogic/AI/AIPlayer.java" />
-        <option value="$PROJECT_DIR$/src/backend/gameLogic/HandType.java" />
-        <option value="$PROJECT_DIR$/src/backend/gameLogic/PlayerStuff/Move.java" />
-        <option value="$PROJECT_DIR$/src/backend/gameLogic/GameLogic.java" />
-        <option value="$PROJECT_DIR$/src/backend/gameLogic/AI/AILogic.java" />
-        <option value="$PROJECT_DIR$/src/backend/gameLogic/OfflineMode/OfflineAIUser.java" />
-        <option value="$PROJECT_DIR$/src/gui/login/LoginPanel.java" />
-        <option value="$PROJECT_DIR$/src/backend/MongoControl.java" />
-        <option value="$PROJECT_DIR$/src/backend/gameLogic/OfflineMode/OfflinePlayer.java" />
-        <option value="$PROJECT_DIR$/src/gui/MainUI/GameUI/ChatBox.java" />
-        <option value="$PROJECT_DIR$/src/gui/login/NewAccount.java" />
-        <option value="$PROJECT_DIR$/src/backend/gameLogic/OfflineMode/OfflineUser.java" />
-        <option value="$PROJECT_DIR$/src/backend/gameLogic/OfflineMode/AIUser.java" />
-        <option value="$PROJECT_DIR$/src/gui/Panels.java" />
-        <option value="$PROJECT_DIR$/src/gui/MainUI/SinglePlayer/SinglePlayerOptions.java" />
-        <option value="$PROJECT_DIR$/src/gui/main.java" />
         <option value="$PROJECT_DIR$/src/gui/Window.java" />
-        <option value="$PROJECT_DIR$/src/gui/MainUI/MainPanel.java" />
-        <option value="$PROJECT_DIR$/app.config" />
+        <option value="$PROJECT_DIR$/src/backend/gameLogic/AI/AILogic.java" />
         <option value="$PROJECT_DIR$/src/gui/MainUI/GameUI/PlayerPanel.java" />
-        <option value="$PROJECT_DIR$/src/gui/MainUI/GameUI/GameplayPanel.java" />
-        <option value="$PROJECT_DIR$/src/backend/gameLogic/OfflineMode/Player.java" />
-        <option value="$PROJECT_DIR$/src/backend/gameLogic/OfflineMode/OfflineController.java" />
         <option value="$PROJECT_DIR$/src/gui/MainUI/GameUI/OfflineGameplayPanel.java" />
+        <option value="$PROJECT_DIR$/src/backend/gameLogic/OfflineMode/AIUser.java" />
+        <option value="$PROJECT_DIR$/src/backend/gameLogic/OfflineMode/OfflineController.java" />
       </list>
     </option>
   </component>
@@ -285,6 +197,9 @@
     <OptionsSetting value="true" id="Edit" />
     <ConfirmationsSetting value="0" id="Add" />
     <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -427,6 +342,28 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="gui" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="login" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TexasHoldEm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TexasHoldEm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="backend" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -497,14 +434,67 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="PlayerStuff" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TexasHoldEm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TexasHoldEm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="backend" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gameLogic" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="OfflineMode" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TexasHoldEm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TexasHoldEm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="backend" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gameLogic" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AI" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -645,28 +635,8 @@
       </ExternalSystemSettings>
       <method />
     </configuration>
-    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
-      <module name="" />
-      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
-      <option name="PROGRAM_PARAMETERS" />
-      <method />
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <method />
-    </configuration>
     <configuration default="true" type="JarApplication" factoryName="JAR Application">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="JAR_PATH" value="$PROJECT_DIR$/gson-2.3.1.jar" />
       <envs />
       <method />
     </configuration>
@@ -741,23 +711,24 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32913387" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3273906" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26614174" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" x="-7" y="211" width="1269" height="691" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26771653" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" x="-7" y="211" width="1269" height="691" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18667643" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18008785" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32913387" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -765,9 +736,10 @@
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Memory Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -788,7 +760,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="13" />
+      <option name="time" value="42" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -808,11 +780,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="476">
           <caret line="74" column="18" selection-start-line="74" selection-start-column="18" selection-end-line="74" selection-end-column="18" />
-          <folding>
-            <element signature="method#generateDeck#0;class#Deck#0" expanded="false" />
-            <element signature="method#suiteID#0;class#Deck#0" expanded="false" />
-            <element signature="method#getNextCard#0;class#Deck#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -820,9 +787,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="238" max-vertical-offset="408">
           <caret line="14" column="38" selection-start-line="14" selection-start-column="38" selection-end-line="14" selection-end-column="38" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -830,7 +795,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="1071" max-vertical-offset="3179">
           <caret line="63" column="16" selection-start-line="63" selection-start-column="16" selection-end-line="63" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -932,68 +896,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/backend/gameLogic/PlayerStuff/Moves.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="187">
-          <caret line="3" column="25" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/backend/gameLogic/PlayerStuff/Move.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="319" max-vertical-offset="884">
-          <caret line="34" column="29" selection-start-line="34" selection-start-column="29" selection-end-line="34" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/gui/login/LoginPanel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1388" max-vertical-offset="1921">
-          <caret line="110" column="24" selection-start-line="110" selection-start-column="24" selection-end-line="110" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$PROJECT_DIR$/mongo-java-driver-3.0.0-beta2.jar!/org/bson/Document.class">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-14.52" vertical-offset="1218" max-vertical-offset="1700">
           <caret line="154" column="0" selection-start-line="154" selection-start-column="0" selection-end-line="154" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/gui/login/NewAccount.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1450" max-vertical-offset="2635">
-          <caret line="110" column="21" selection-start-line="110" selection-start-column="21" selection-end-line="110" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/backend/gameLogic/OfflineMode/AIUser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="629">
-          <caret line="12" column="25" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/backend/MongoControl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="668" max-vertical-offset="1275">
-          <caret line="69" column="25" selection-start-line="69" selection-start-column="25" selection-end-line="69" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/backend/gameLogic/HandType.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="289">
-          <caret line="5" column="11" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/backend/gameLogic/GameLogic.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="6154">
-          <caret line="246" column="20" selection-start-line="246" selection-start-column="20" selection-end-line="246" selection-end-column="20" />
         </state>
       </provider>
     </entry>
@@ -1011,38 +917,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/backend/gameLogic/AI/AILogic.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="731">
-          <caret line="33" column="36" selection-start-line="33" selection-start-column="36" selection-end-line="33" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/gui/MainUI/Multiplayer/MainMultiplayerPanel.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="425">
           <caret line="13" column="14" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/gui/Panels.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="272">
-          <caret line="8" column="82" selection-start-line="8" selection-start-column="82" selection-end-line="8" selection-end-column="82" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/backend/gameStuff/Deck.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1003">
-          <caret line="70" column="5" selection-start-line="70" selection-start-column="5" selection-end-line="70" selection-end-column="5" />
-          <folding>
-            <element signature="method#generateDeck#0;class#Deck#0" expanded="false" />
-            <element signature="method#suiteID#0;class#Deck#0" expanded="false" />
-            <element signature="method#getNextCard#0;class#Deck#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1057,49 +935,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="650" max-vertical-offset="1513">
           <caret line="82" column="0" selection-start-line="82" selection-start-column="0" selection-end-line="82" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TexasHoldEm.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="607">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/backend/gameLogic/FoundHand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="561">
-          <caret line="14" column="42" selection-start-line="14" selection-start-column="42" selection-end-line="14" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/gui/main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="680">
-          <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/gui/MainUI/MainPanel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="242" max-vertical-offset="1173">
-          <caret line="50" column="5" selection-start-line="50" selection-start-column="5" selection-end-line="50" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/gui/Window.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1394">
-          <caret line="33" column="8" selection-start-line="33" selection-start-column="8" selection-end-line="33" selection-end-column="8" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1107,7 +942,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.18" vertical-offset="0" max-vertical-offset="276148">
           <caret line="9" column="104" selection-start-line="9" selection-start-column="104" selection-end-line="9" selection-end-column="104" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1116,11 +950,45 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app.config">
+    <entry file="file://$PROJECT_DIR$/src/backend/gameStuff/Suite.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="153">
-          <caret line="3" column="15" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="15" />
-          <folding />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="289">
+          <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/backend/gameLogic/GameLogic.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="5729" max-vertical-offset="6154">
+          <caret line="246" column="20" selection-start-line="246" selection-start-column="20" selection-end-line="246" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/backend/gameLogic/FoundHand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="561">
+          <caret line="14" column="42" selection-start-line="14" selection-start-column="42" selection-end-line="14" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/backend/gameStuff/Deck.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="1326">
+          <caret line="71" column="0" selection-start-line="71" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/backend/gameLogic/HandType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="289">
+          <caret line="5" column="11" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TexasHoldEm.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="323">
+          <caret line="13" column="9" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="9" />
         </state>
       </provider>
     </entry>
@@ -1128,77 +996,168 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="459">
           <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/gui/login/LoginPanel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1467" max-vertical-offset="2074">
+          <caret line="112" column="8" selection-start-line="112" selection-start-column="8" selection-end-line="112" selection-end-column="8" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/backend/MongoControl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1275">
+          <caret line="43" column="28" selection-start-line="43" selection-start-column="28" selection-end-line="43" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/gui/login/NewAccount.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="476" max-vertical-offset="2635">
+          <caret line="37" column="19" selection-start-line="37" selection-start-column="19" selection-end-line="37" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/backend/gameLogic/PlayerStuff/Moves.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="187">
+          <caret line="3" column="25" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/backend/gameLogic/PlayerStuff/Move.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="253" max-vertical-offset="680">
+          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <folding>
+            <element signature="e#422#423#0" expanded="true" />
+            <element signature="e#471#472#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/gui/MainUI/GameUI/PlayerPanel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="314" max-vertical-offset="1513">
-          <caret line="36" column="9" selection-start-line="36" selection-start-column="9" selection-end-line="36" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/gui/MainUI/GameUI/GameplayPanel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="7" max-vertical-offset="3077">
-          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/backend/gameLogic/OfflineMode/OfflineUser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="663">
-          <caret line="25" column="20" selection-start-line="25" selection-start-column="20" selection-end-line="25" selection-end-column="20" />
-          <folding>
-            <element signature="e#480#481#0" expanded="true" />
-            <element signature="e#507#508#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/backend/gameStuff/Suite.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="289">
-          <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="889" max-vertical-offset="1496">
+          <caret line="76" column="41" selection-start-line="76" selection-start-column="41" selection-end-line="76" selection-end-column="41" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/backend/gameLogic/OfflineMode/Player.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="731" max-vertical-offset="1326">
-          <caret line="98" column="21" selection-start-line="98" selection-start-column="21" selection-end-line="98" selection-end-column="21" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="867" max-vertical-offset="1394">
+          <caret line="29" column="5" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
           <folding>
-            <element signature="e#720#721#0" expanded="true" />
-            <element signature="e#747#748#0" expanded="true" />
-            <element signature="method#giveNewCards#0;class#Player#0" expanded="false" />
-            <element signature="method#setCombinedDeck#0;class#Player#0" expanded="false" />
-            <element signature="e#1778#1779#0" expanded="true" />
-            <element signature="e#1800#1801#0" expanded="true" />
+            <element signature="e#658#659#0" expanded="true" />
+            <element signature="e#689#690#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/backend/gameLogic/AI/AILogic.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="210" max-vertical-offset="799">
+          <caret line="45" column="24" selection-start-line="45" selection-start-column="24" selection-end-line="45" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/gui/MainUI/GameUI/GameplayPanel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="357" max-vertical-offset="3077">
+          <caret line="170" column="0" selection-start-line="170" selection-start-column="0" selection-end-line="170" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/backend/gameLogic/OfflineMode/OfflineUser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="112" max-vertical-offset="544">
+          <caret line="32" column="28" selection-start-line="32" selection-start-column="28" selection-end-line="32" selection-end-column="28" />
+          <folding>
+            <element signature="e#646#647#0" expanded="true" />
+            <element signature="e#673#674#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/backend/gameLogic/OfflineMode/OfflineController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="408">
-          <caret line="14" column="11" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="11" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="1806" max-vertical-offset="2669">
+          <caret line="141" column="17" selection-start-line="141" selection-start-column="17" selection-end-line="141" selection-end-column="17" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="method#initializeEssentials#0;class#OfflineController#0" expanded="false" />
+            <element signature="e#4658#4659#0" expanded="true" />
+            <element signature="e#4741#4742#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/gui/MainUI/GameUI/OfflineGameplayPanel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.45890412" vertical-offset="20" max-vertical-offset="1054">
-          <caret line="13" column="29" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="549" max-vertical-offset="1853">
+          <caret line="80" column="27" selection-start-line="80" selection-start-column="27" selection-end-line="80" selection-end-column="27" />
+          <folding>
+            <element signature="method#fold#0;class#OfflineGameplayPanel#0" expanded="false" />
+            <element signature="method#bet#0;class#OfflineGameplayPanel#0" expanded="false" />
+            <element signature="method#check#0;class#OfflineGameplayPanel#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/backend/gameLogic/OfflineMode/AIUser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="254" max-vertical-offset="969">
+          <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/gui/Window.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="1411">
+          <caret line="86" column="9" selection-start-line="86" selection-start-column="9" selection-end-line="86" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.config">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="153">
+          <caret line="3" column="20" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/gui/Panels.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="272">
+          <caret line="8" column="82" selection-start-line="8" selection-start-column="82" selection-end-line="8" selection-end-column="82" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/gui/main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="680">
+          <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/gui/MainUI/MainPanel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3112128" vertical-offset="51" max-vertical-offset="1173">
+          <caret line="17" column="45" selection-start-line="17" selection-start-column="45" selection-end-line="17" selection-end-column="45" />
+          <folding />
         </state>
       </provider>
     </entry>
